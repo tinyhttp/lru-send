@@ -12,6 +12,7 @@ specifiers:
   eslint: 7.29.0
   eslint-config-prettier: 8.3.0
   eslint-plugin-prettier: 3.4.0
+  husky: ^6.0.0
   ioredis: ^4.27.6
   quick-lru: ^6.0.0
   rollup: ^2.52.3
@@ -37,6 +38,7 @@ devDependencies:
   eslint: 7.29.0
   eslint-config-prettier: 8.3.0_eslint@7.29.0
   eslint-plugin-prettier: 3.4.0_8ba2f98f0791c0acf1d21c3ef32d35f1
+  husky: 6.0.0
   rollup: 2.52.3
   supertest-fetch: 1.4.3
   typescript: 4.3.4
@@ -1061,6 +1063,11 @@ packages:
 
   /html-escaper/2.0.2:
     resolution: {integrity: sha512-H2iMtd0I4Mt5eYiapRdIDjp+XzelXQ0tFE4JS7YFwFevXXMmOp9myNrUvCg0D6ws8iqkRPBfKHgbwig1SmlLfg==}
+    dev: true
+
+  /husky/6.0.0:
+    resolution: {integrity: sha512-SQS2gDTB7tBN486QSoKPKQItZw97BMOd+Kdb6ghfpBc0yXyzrddI0oDV5MkDAbuB4X2mO3/nj60TRMcYxwzZeQ==}
+    hasBin: true
     dev: true
 
   /ignore/4.0.6:
