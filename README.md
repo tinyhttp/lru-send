@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="logo.svg" height="128px" /><br />
+<img src="https://github.com/tinyhttp/lru-send/blob/master/logo.svg#L16.svg" height="128px" alt="logo" /><br />
 
 # lru-send
 
