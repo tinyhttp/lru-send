@@ -1,6 +1,6 @@
 # lru-send
 
-LRU-based caching middleware for Node.js. Patches `res.send` to use LRU caching.
+LRU-based caching middleware for Node.js that patches `res.send`.
 
 ## Features
 
