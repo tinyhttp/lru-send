@@ -1,4 +1,12 @@
+<div align="center">
+
+<img src="logo.svg" height="128px" /><br />
+
 # lru-send
+
+[![npm][npm-img]][npm-url] [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/tinyhttp/tinyhttp/CI?style=for-the-badge&logo=github&label=&color=ECBBF8)][github-actions] [![Coverage][cov-img]][cov-url]
+
+</div>
 
 LRU-based caching middleware for Node.js that patches `res.send`.
 
@@ -55,3 +63,9 @@ app.use('/', (_req, res) => {
 
 app.listen(3000)
 ```
+
+[npm-url]: https://npmjs.com/package/lru-send
+[github-actions]: https://github.com/tinyhttp/lru-send/actions
+[cov-img]: https://img.shields.io/coveralls/github/tinyhttp/lru-send?style=for-the-badge&color=ECBBF8
+[cov-url]: https://coveralls.io/github/tinyhttp/lru-send
+[npm-img]: https://img.shields.io/npm/dt/lru-send?style=for-the-badge&color=ECBBF8
