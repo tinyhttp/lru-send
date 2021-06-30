@@ -10,7 +10,7 @@ LRU-based caching middleware for Node.js that patches `res.send`.
 
 ## Features
 
-- 😲 [**~14x faster**](bench) for heavy operations
+- 😲 [**~330 56.34x faster**](bench) for heavy operations
 - ⚡ ESM-only
 - ✨ types out of the box
 - 🟥 (optionally) supports [Redis](http://redis.io/)
