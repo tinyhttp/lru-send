@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="https://github.com/tinyhttp/lru-send/blob/master/logo.svg#L16.svg" height="128px" alt="logo" /><br />
-
 # lru-send
 
 [![npm][npm-img]][npm-url] [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/tinyhttp/tinyhttp/CI?style=for-the-badge&logo=github&label=&color=ECBBF8)][github-actions] [![Coverage][cov-img]][cov-url]
