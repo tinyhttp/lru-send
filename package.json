@@ -1,6 +1,6 @@
 {
   "name": "lru-send",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "LRU-based caching middleware for Node.js",
   "type": "module",
   "exports": {
