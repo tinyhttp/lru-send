@@ -60,7 +60,7 @@
     "eslint": "7.29.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-prettier": "3.4.0",
-    "husky": "^6.0.0",
+    "husky": "7.0.0",
     "rollup": "^2.52.3",
     "supertest-fetch": "^1.4.3",
     "typescript": "^4.3.4",
