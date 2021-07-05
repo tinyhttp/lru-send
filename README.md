@@ -2,7 +2,7 @@
 
 # lru-send
 
-[![npm][npm-img]][npm-url] [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/tinyhttp/tinyhttp/CI?style=for-the-badge&logo=github&label=&color=ECBBF8)][github-actions] [![Coverage][cov-img]][cov-url]
+[![npm][npm-img]][npm-url] [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/tinyhttp/tinyhttp/CI?style=for-the-badge&logo=github&label=&color=9F5E8C)][github-actions] [![Coverage][cov-img]][cov-url]
 
 </div>
 
@@ -21,9 +21,9 @@ LRU-based caching middleware for Node.js that patches `res.send`.
 pnpm i lru-send
 ```
 
-## Example
+## Examples
 
-Vanilla (using `quick-lru`)
+### In-memory
 
 ```ts
 import { lruSend } from 'lru-send'
@@ -41,7 +41,7 @@ app.use('/', (_req, res) => {
 app.listen(3000)
 ```
 
-Redis
+### Redis
 
 ```ts
 import { lruSend } from 'lru-send/redis'
@@ -64,6 +64,6 @@ app.listen(3000)
 
 [npm-url]: https://npmjs.com/package/lru-send
 [github-actions]: https://github.com/tinyhttp/lru-send/actions
-[cov-img]: https://img.shields.io/coveralls/github/tinyhttp/lru-send?style=for-the-badge&color=ECBBF8
+[cov-img]: https://img.shields.io/coveralls/github/tinyhttp/lru-send?style=for-the-badge&color=9F5E8C
 [cov-url]: https://coveralls.io/github/tinyhttp/lru-send
-[npm-img]: https://img.shields.io/npm/dt/lru-send?style=for-the-badge&color=ECBBF8
+[npm-img]: https://img.shields.io/npm/dt/lru-send?style=for-the-badge&color=9F5E8C
