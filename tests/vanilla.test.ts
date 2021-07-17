@@ -28,4 +28,19 @@ t('should work with custom LRU instance', async () => {
   await fetch('/')
 })
 
+t('should only cache GET requests', async () => {
+  const app = new App()
+  const lru = new LRU<string, unknown>({ maxSize: 2 })
+  app.use(lruSend(lru))
+
+  app.use((_req, res) => {
+    assert.equal(lru.size, 0)
+    res.send('hello')
+  })
+  const server = app.listen()
+  const fetch = makeFetch(server)
+
+  await fetch('/', { method: 'POST' })
+})
+
 t.run()
