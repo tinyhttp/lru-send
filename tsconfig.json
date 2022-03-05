@@ -8,16 +8,7 @@
     "declaration": true,
     "preserveSymlinks": true,
     "isolatedModules": true,
-    "esModuleInterop": true,
-    "downlevelIteration": true,
-    "noUnusedLocals": true,
-    "noImplicitAny": false,
-    "noUnusedParameters": true,
-    "preserveConstEnums": true,
     "skipLibCheck": true,
-    "moduleResolution": "Node",
-    "forceConsistentCasingInFileNames": true,
-    "allowSyntheticDefaultImports": true
-  },
-  "exclude": ["tests", "dist"]
+    "moduleResolution": "Node"
+  }
 }

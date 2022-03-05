@@ -1,6 +1,6 @@
 import { IncomingMessage as Request } from 'http'
 import { LRUResponse } from './types'
-import Redis from 'ioredis'
+import * as Redis from 'ioredis'
 
 export const lruSend = (redisInstance?: Redis.Redis) => {
   const cache = redisInstance || new Redis()
