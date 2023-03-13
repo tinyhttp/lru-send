@@ -67,4 +67,4 @@ app.listen(3000)
 [cov-img]: https://img.shields.io/coveralls/github/tinyhttp/lru-send?style=for-the-badge&color=9F5E8C
 [cov-url]: https://coveralls.io/github/tinyhttp/lru-send
 [npm-img]: https://img.shields.io/npm/dt/lru-send?style=for-the-badge&color=9F5E8C
-[actions-badge]: https://img.shields.io/github/workflow/status/tinyhttp/lru-send/CI?style=for-the-badge&logo=github&label=&color=9F5E8C
+[actions-badge]: https://img.shields.io/github/actions/workflow/status/tinyhttp/lru-send/ci.yml?branch=master&style=for-the-badge&logo=github&label=&color=9F5E8C
