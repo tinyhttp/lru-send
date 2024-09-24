@@ -61,7 +61,7 @@
     "eslint-plugin-prettier": "4.0.0",
     "husky": "7.0.4",
     "prettier": "^2.5.1",
-    "rollup": "^2.69.1",
+    "rollup": "^3.29.5",
     "supertest-fetch": "^1.5.0",
     "tsm": "^2.2.1",
     "typescript": "^4.6.2",
